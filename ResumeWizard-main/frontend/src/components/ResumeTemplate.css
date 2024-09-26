@@ -1,0 +1,94 @@
+.resume {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 800px; 
+  margin: 20px auto;
+  padding: 20px; /* Adjust padding */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center; /* Center align header */
+}
+
+.h {
+  padding: 0 10px; /* Adjust padding */
+}
+
+.d {
+  float: right;
+}
+
+.education,
+.skills,
+.projects,
+.experience,
+.certificates,
+.achievements {
+  margin-bottom: 20px;
+}
+
+.education h2,
+.skills h2,
+.projects h2,
+.experience h2,
+.certificates h2,
+.achievements h2 {
+  font-size: 1.5rem; /* Relative font size */
+  margin-bottom: 10px;
+}
+
+.projects a,
+.certificates a,
+.achievements a,
+.header a {
+  color: black;
+  text-decoration: none;
+}
+
+.projects a:hover,
+.certificates a:hover,
+.achievements a:hover,
+.header a:hover {
+  text-decoration: underline;
+}
+
+.cdata,
+.adata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 800px) {
+  .resume {
+      padding: 15px; /* Adjust padding */
+  }
+
+  .education,
+  .skills,
+  .projects,
+  .experience,
+  .certificates,
+  .achievements {
+      margin-bottom: 15px; /* Adjust margin */
+  }
+
+  .education h2,
+  .skills h2,
+  .projects h2,
+  .experience h2,
+  .certificates h2,
+  .achievements h2 {
+      font-size: 1.3rem; /* Relative font size */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resume {
+      max-width: 95%;
+  }
+}
